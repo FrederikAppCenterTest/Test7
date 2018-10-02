@@ -10,6 +10,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App12.UWP", "App12\App12.UWP\App12.UWP.csproj", "{5B761C16-C241-4039-A8B6-CA596F492154}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App12", "App12\App12\App12.csproj", "{B49CE890-4C08-4CCB-B217-7E6F50A122B1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BBE314AB-C9B5-40C2-AB7F-36E7A8227D3C} = {BBE314AB-C9B5-40C2-AB7F-36E7A8227D3C}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{BBE314AB-C9B5-40C2-AB7F-36E7A8227D3C}"
 EndProject
