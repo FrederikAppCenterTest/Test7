@@ -14,7 +14,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App12", "App12\App12\App12.
 		{BBE314AB-C9B5-40C2-AB7F-36E7A8227D3C} = {BBE314AB-C9B5-40C2-AB7F-36E7A8227D3C}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{BBE314AB-C9B5-40C2-AB7F-36E7A8227D3C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App12.Tests", "UnitTestProject1\App12.Tests.csproj", "{BBE314AB-C9B5-40C2-AB7F-36E7A8227D3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
