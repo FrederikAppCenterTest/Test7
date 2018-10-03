@@ -1,1 +1,1 @@
-echo "VIRKER MAASKE"
+dotnet test "..\..\UnitTestProject3" 
