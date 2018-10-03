@@ -1,1 +1,1 @@
-echo "ALLES KLAR HERR KOMMISAR"
+dotnet test
