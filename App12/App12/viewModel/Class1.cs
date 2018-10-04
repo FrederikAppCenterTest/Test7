@@ -8,7 +8,7 @@ namespace App12.viewModel
     {
         public Boolean AllesKlar()
         {
-            return false;
+            return true;
 
         }
     }
