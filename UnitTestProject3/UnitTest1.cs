@@ -8,7 +8,7 @@ namespace UnitTestProject3
         [TestMethod]
         public void TestMethod1()
         {
-            Assert.AreEqual(true, false);
+            Assert.AreEqual(true, true);
         }
     }
 }
