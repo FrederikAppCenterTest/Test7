@@ -9,6 +9,7 @@
         <Label Text="Welcome to Xamarin.Forms!!!!JEPS To da test" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+        <Button Text="TESTER" />
     </StackLayout>
 
 </ContentPage>
