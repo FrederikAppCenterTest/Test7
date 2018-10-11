@@ -6,6 +6,10 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
+
 
 namespace App12.Droid
 {
@@ -14,6 +18,9 @@ namespace App12.Droid
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            AppCenter.Start("2bb11d5b-8562-47e6-87e5-7abcf85c2c02",
+                   typeof(Analytics), typeof(Crashes));
+            AppCenter.Start("2bb11d5b-8562-47e6-87e5-7abcf85c2c02", typeof(Analytics), typeof(Crashes));
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
 
